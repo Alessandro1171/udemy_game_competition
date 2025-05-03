@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - FrontGreen
+  - FrontBlue
+  - BackGreen
+  - BackBlue
+  - front
+  - back
   layers:
   - Default
   - TransparentFX
