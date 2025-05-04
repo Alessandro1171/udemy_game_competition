@@ -11,6 +11,7 @@ TagManager:
   - BackBlue
   - front
   - back
+  - LevelLogic
   layers:
   - Default
   - TransparentFX

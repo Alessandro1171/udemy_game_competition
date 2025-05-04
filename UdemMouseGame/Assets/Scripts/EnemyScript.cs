@@ -104,6 +104,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("Enemy has died.");
             gameObject.SetActive(false);
+            WhiteCatLevelScript.Instance.UnregisterObject(gameObject);
         }
         src2.clip = hit;
         src2.Play();

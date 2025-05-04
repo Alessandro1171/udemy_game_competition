@@ -24,23 +24,23 @@ public class EnemySpawnerScript : MonoBehaviour
     private float _timeUntilSpawn;
 
 
-    void SpawnCommands(string[] enemyList)
+    public void SpawnCommands(EnemyTypes[] enemyList)
     {
-        foreach(string enemy in enemyList)
+        foreach(EnemyTypes enemy in enemyList)
         {
             float spawnDelay = Random.Range(_minimumSpawnTime, _maximumSpawnTime);
             StartCoroutine(WaitThenSpawn(spawnDelay));
-            if (enemy == "red")
+            if (enemy == EnemyTypes.red)
             {
-                Instantiate(redEnemyPrefab, transform.position, Quaternion.identity);
+                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(redEnemyPrefab, transform.position, Quaternion.identity));
             }
-            else if(enemy == "green")
+            else if(enemy == EnemyTypes.green)
             {
-                Instantiate(greenEnemyPrefab, transform.position, Quaternion.identity);
+                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(greenEnemyPrefab, transform.position, Quaternion.identity));
             }
             else
             {
-                Instantiate(blueEnemyPrefab, transform.position, Quaternion.identity);
+                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(blueEnemyPrefab, transform.position, Quaternion.identity));
             }
         }
     }

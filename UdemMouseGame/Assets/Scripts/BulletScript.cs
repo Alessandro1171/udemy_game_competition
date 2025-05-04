@@ -40,6 +40,7 @@ public class RangeScript : MonoBehaviour
             {
                 enemyScript.TakeDamage(bulletDamage);
             }
+
             Destroy(gameObject); // Destroy the bullet
         }
     }
