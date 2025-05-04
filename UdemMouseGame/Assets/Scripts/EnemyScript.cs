@@ -2,10 +2,10 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Enemy : MonoBehaviour
+public class EnemyScript : MonoBehaviour
 {
-    public AudioSource src2;
-    public AudioClip hit,die;
+    //public AudioSource src2;
+    //public AudioClip hit,die;
     public float min = 3f;
     public float max = 4f;
     public Transform player;
@@ -17,7 +17,8 @@ public class Enemy : MonoBehaviour
     private int currentHealth;
     private float damageTimer;
     public Slider healthSlider;
-
+    public Rigidbody2D parentRigidbody2D;
+  
     private void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
@@ -31,7 +32,7 @@ public class Enemy : MonoBehaviour
             healthSlider.value = currentHealth;
         }
     }
-
+ 
     private float GenerateRandomSpeed()
     {
         return Random.Range(min, max);
@@ -57,10 +58,13 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        Vector3 direction = player.position - transform.position;
-        transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+        
+        Vector2 direction = (player.position - transform.position).normalized;
+        parentRigidbody2D.AddForce(direction * moveSpeed);
+        //Vector3 direction = player.position - transform.position;
+        //transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
 
-        Vector3 direction2D = Quaternion.Euler(0, 0, 180) * direction;
+        Vector3 direction2D = direction; //Quaternion.Euler(0, 0, 180) * direction;
         Quaternion toRotation = Quaternion.LookRotation(Vector3.forward, direction2D);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
     }
@@ -83,8 +87,8 @@ public class Enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Enemy has died.");
-            src2.clip = die;
-            src2.Play();
+            //src2.clip = die;
+            //src2.Play();
             gameObject.SetActive(false);
             
         }
@@ -106,8 +110,8 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
             WhiteCatLevelScript.Instance.UnregisterObject(gameObject);
         }
-        src2.clip = hit;
-        src2.Play();
+        //src2.clip = hit;
+        //src2.Play();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

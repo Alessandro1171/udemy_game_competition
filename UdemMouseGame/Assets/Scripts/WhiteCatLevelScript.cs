@@ -20,7 +20,8 @@ public class WhiteCatLevelScript : MonoBehaviour
     public static WhiteCatLevelScript Instance;
     public List<GameObject> activeObjects = new();
     private int roundCounter = 0;
-
+    private int enemyCounter = 0;
+   
     public GameObject doorOpen;
 
     public GameObject doorClose;
@@ -31,8 +32,19 @@ public class WhiteCatLevelScript : MonoBehaviour
         doorOpen.SetActive(false);
         doorClose.SetActive(true);
     }
+    public void LevelComplete()
+    {
+        enemyCounter--;
+        if (enemyCounter==0 && roundCounter > 0)
+        {
+            doorOpen.SetActive(true);
+            doorClose.SetActive(false);
+        }
+    }
     public void RegisterObject(GameObject obj)
     {
+        Debug.Log("Game object:"+obj);
+        obj.SetActive(true);
         activeObjects.Add(obj);
     }
 
@@ -40,10 +52,11 @@ public class WhiteCatLevelScript : MonoBehaviour
     {
         activeObjects.Remove(obj);
         Destroy(obj);
+        Debug.Log("enemy count:" + activeObjects.Count);
         if (activeObjects.Count == 0)
         {
-            SpawnNextRound();
-
+            //SpawnNextRound();
+            Debug.Log("All enemies defeated!");
         }
     }
     public void SpawnNextRound()
@@ -81,11 +94,13 @@ public class WhiteCatLevelScript : MonoBehaviour
             doorOpen.SetActive(true);
             doorClose.SetActive(false);
         }
-        roundCounter = roundCounter + 1;
+        roundCounter++;
     }
     public void SpawnRound1()
     {
         EnemyTypes[] round1 = new EnemyTypes[3] {EnemyTypes .red, EnemyTypes.red , EnemyTypes.red};
+        enemyCounter = round1.Length * 4;
+        Debug.Log("enemyCounter:"+ enemyCounter);
         enemySpawner1.GetComponent<EnemySpawnerScript>().SpawnCommands(round1);
         enemySpawner2.GetComponent<EnemySpawnerScript>().SpawnCommands(round1);
         enemySpawner3.GetComponent<EnemySpawnerScript>().SpawnCommands(round1);

@@ -29,33 +29,29 @@ public class EnemySpawnerScript : MonoBehaviour
         foreach(EnemyTypes enemy in enemyList)
         {
             float spawnDelay = Random.Range(_minimumSpawnTime, _maximumSpawnTime);
-            StartCoroutine(WaitThenSpawn(spawnDelay));
-            if (enemy == EnemyTypes.red)
-            {
-                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(redEnemyPrefab, transform.position, Quaternion.identity));
-            }
-            else if(enemy == EnemyTypes.green)
-            {
-                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(greenEnemyPrefab, transform.position, Quaternion.identity));
-            }
-            else
-            {
-                WhiteCatLevelScript.Instance.RegisterObject(Instantiate(blueEnemyPrefab, transform.position, Quaternion.identity));
-            }
+            StartCoroutine(WaitThenSpawn(spawnDelay, enemy));
+            
         }
     }
 
 
-    IEnumerator WaitThenSpawn(float seconds)
+    IEnumerator WaitThenSpawn(float seconds, EnemyTypes enemy)
     {
-        float elapsed = 0f;
 
-        while (elapsed < seconds)
+        
+        yield return new WaitForSeconds(seconds);
+        if (enemy == EnemyTypes.red)
         {
-            elapsed += Time.deltaTime;
-            yield return null; // Wait for next frame
+            WhiteCatLevelScript.Instance.RegisterObject(Instantiate(redEnemyPrefab, transform.position, Quaternion.identity));
         }
-
+        else if (enemy == EnemyTypes.green)
+        {
+            WhiteCatLevelScript.Instance.RegisterObject(Instantiate(greenEnemyPrefab, transform.position, Quaternion.identity));
+        }
+        else
+        {
+            WhiteCatLevelScript.Instance.RegisterObject(Instantiate(blueEnemyPrefab, transform.position, Quaternion.identity));
+        }
         Debug.Log("Waited " + seconds + " seconds");
         // Continue execution here
     }

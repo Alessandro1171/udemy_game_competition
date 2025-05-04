@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 public class RedEnemyScript : MonoBehaviour
 {
    
-    public AudioSource src2;
-    public AudioClip hit, die;
+    //public AudioSource src2;
+    //public AudioClip hit, die;
     public float min = 3f;
     public float max = 4f;
     public Transform player;
@@ -20,6 +21,7 @@ public class RedEnemyScript : MonoBehaviour
     public Slider healthSlider;
     private bool waitingToHeal;
     private float healTimer;
+    public Rigidbody2D parentRigidbody2D;
     private void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
@@ -27,7 +29,7 @@ public class RedEnemyScript : MonoBehaviour
         damageTimer = damageInterval;
         currentHealth = maxHealth;
         waitingToHeal = false;
-        healTimer = 10f;
+        healTimer = 60f;
         if (healthSlider != null)
         {
             healthSlider.maxValue = maxHealth;
@@ -60,8 +62,8 @@ public class RedEnemyScript : MonoBehaviour
             }
         }
 
-        Vector3 direction = player.position - transform.position;
-        transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+        Vector2 direction = (player.position - transform.position).normalized;
+        parentRigidbody2D.AddForce(direction * moveSpeed);
 
         Vector3 direction2D = Quaternion.Euler(0, 0, 180) * direction;
         Quaternion toRotation = Quaternion.LookRotation(Vector3.forward, direction2D);
@@ -86,8 +88,8 @@ public class RedEnemyScript : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Enemy has died.");
-            src2.clip = die;
-            src2.Play();
+            //src2.clip = die;
+            //src2.Play();
             gameObject.SetActive(false);
 
         }
@@ -95,12 +97,13 @@ public class RedEnemyScript : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("taking:"+damage);
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         if (!waitingToHeal)
         {
             waitingToHeal = true;
-            HealEnemy();
+            //HealEnemy();
         }
         if (healthSlider != null)
         {
@@ -110,10 +113,12 @@ public class RedEnemyScript : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Enemy has died.");
+            WhiteCatLevelScript.Instance.LevelComplete();
             gameObject.SetActive(false);
+            Destroy(gameObject);
         }
-        src2.clip = hit;
-        src2.Play();
+        //src2.clip = hit;
+        //src2.Play();
     }
     public void HealEnemy()
     {
@@ -125,13 +130,7 @@ public class RedEnemyScript : MonoBehaviour
     IEnumerator WaitThenHeal()
     {
 
-        float elapsed = 0f;
-
-        while (elapsed < healTimer)
-        {
-            elapsed += Time.deltaTime;
-            yield return null; // Wait for next frame
-        }
+        yield return new WaitForSeconds(60);
 
         Debug.Log("Waited " + healTimer + " seconds");
         // Continue execution here

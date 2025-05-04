@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 484c7599c76bd1c47a651be8d83137a4
+guid: f572e0972e5264740a944e2bb43987d8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,91 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Animation_Trim_Sheet_Spider_Red_0
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 2359
-        width: 1168
-        height: 1424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db7dca1590be0214c9107df94cb20f11
-      internalID: -446203880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animation_Trim_Sheet_Spider_Red_1
-      rect:
-        serializedVersion: 2
-        x: 2629
-        y: 2359
-        width: 1168
-        height: 1424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2bb63e375dbf3d4db4b0d439d10185d
-      internalID: -375601252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animation_Trim_Sheet_Spider_Red_2
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 447
-        width: 1167
-        height: 1424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d13e67216373b741b3b39b6e19a42b3
-      internalID: 1146569481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animation_Trim_Sheet_Spider_Red_3
-      rect:
-        serializedVersion: 2
-        x: 2630
-        y: 447
-        width: 1167
-        height: 1424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f4a4ac1a53412f4ebb840b8de9192e1
-      internalID: -781572988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -229,11 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Animation_Trim_Sheet_Spider_Red_0: -446203880
-      Animation_Trim_Sheet_Spider_Red_1: -375601252
-      Animation_Trim_Sheet_Spider_Red_2: 1146569481
-      Animation_Trim_Sheet_Spider_Red_3: -781572988
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

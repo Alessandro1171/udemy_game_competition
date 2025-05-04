@@ -2,32 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivateRounds : MonoBehaviour
+public class EndGameScript : MonoBehaviour
 {
     private bool hasActivated = false;
 
     private bool playerInRange = false;
+
+    [SerializeField]
+    private GameObject gameOverUI;
     void Update()
     {
         if (hasActivated) return;
 
         if (playerInRange && Input.GetKeyDown(KeyCode.Return))
         {
-            GameObject spawner = GameObject.FindGameObjectWithTag("LevelLogic");
+            
 
-            if (spawner != null)
+            if (gameOverUI != null)
             {
-                WhiteCatLevelScript spawnerScript = spawner.GetComponent<WhiteCatLevelScript>();
-                if (spawnerScript != null)
-                {
-                    spawnerScript.SpawnNextRound();
-                    hasActivated = true;
-                    gameObject.SetActive(false);
-                }
-                else
-                {
-                    Debug.LogWarning("No MonsterSpawner script found on the spawner.");
-                }
+                gameOverUI.SetActive(true);
+                Time.timeScale = 0f;
             }
             else
             {

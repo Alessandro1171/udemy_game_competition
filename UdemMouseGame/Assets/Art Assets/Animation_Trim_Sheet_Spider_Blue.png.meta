@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Animation_Trim_Sheet_Spider_Blue_0
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2359
+        width: 1168
+        height: 1424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3594c3059ca815b4da3b4e569015bd90
+      internalID: -1598035258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_Trim_Sheet_Spider_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 2359
+        width: 1168
+        height: 1424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf9680782598d04cb0cf95370f8d4fd
+      internalID: -287544593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_Trim_Sheet_Spider_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 447
+        width: 1167
+        height: 1424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d5a29c1459f2d4ab5096cbc59339bd
+      internalID: -1131016299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_Trim_Sheet_Spider_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 447
+        width: 1167
+        height: 1424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58084a39660c14da10e652e436ecd3
+      internalID: -326143893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +229,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Animation_Trim_Sheet_Spider_Blue_0: -1598035258
+      Animation_Trim_Sheet_Spider_Blue_1: -287544593
+      Animation_Trim_Sheet_Spider_Blue_2: -1131016299
+      Animation_Trim_Sheet_Spider_Blue_3: -326143893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
