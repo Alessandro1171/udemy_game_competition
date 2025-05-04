@@ -195,6 +195,10 @@ MonoBehaviour:
   gun: {fileID: 0}
   die: {fileID: 0}
   dasher: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  flashDuration: 0.1
+  numberOfFlashes: 3
   spriteTransform: {fileID: 5340114688472882836}
   maxHealth: 15
   currentHealth: 0
@@ -359,6 +363,7 @@ GameObject:
   - component: {fileID: 5340114688472882836}
   - component: {fileID: 495074906517967458}
   - component: {fileID: 3533209310938002093}
+  - component: {fileID: 3821843038684413327}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -441,7 +446,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2627602010952393788}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2a7d3ccd6ceee46ce8a6a4c0d4d3ff76, type: 2}
   m_CullingMode: 0
@@ -454,6 +459,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3821843038684413327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627602010952393788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b760fb3fa0728248b87d9c37d56f13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &7804522571229381340
 GameObject:
   m_ObjectHideFlags: 0
