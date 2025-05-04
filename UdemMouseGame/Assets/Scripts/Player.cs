@@ -179,7 +179,7 @@ public class Player : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         // Set the rotation of the sprite
-        spriteTransform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle - 90f)); // Adjust angle based on sprite orientation
+        spriteTransform.rotation = Quaternion.Euler(0f, 0f, angle - 90f); //Quaternion.Euler(new Vector3(0f, 0f, angle - 90f)); // Adjust angle based on sprite orientation
     }
 
     private void FixedUpdate()

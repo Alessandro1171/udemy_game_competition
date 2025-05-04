@@ -10,7 +10,7 @@ public class RangeScript : MonoBehaviour
     private Vector2 startPosition;
     private float distanceTravelled;
     public int bulletDamage = 1;
-    public Enemy enemy;
+    //public Enemy enemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,10 +35,25 @@ public class RangeScript : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            Enemy enemyScript = collision.GetComponent<Enemy>();
-            if (enemyScript != null)
+            
+            EnemyScript enemy = collision.GetComponent<EnemyScript>();
+            
+           
+            if (enemy != null)
             {
-                enemyScript.TakeDamage(bulletDamage);
+              
+  
+                  enemy.TakeDamage(bulletDamage);
+            }
+            else
+            {
+                RedEnemyScript redEnemy = collision.GetComponent<RedEnemyScript>();
+                if (redEnemy != null)
+                {
+                    
+
+                    redEnemy.TakeDamage(bulletDamage);
+                }
             }
             Destroy(gameObject); // Destroy the bullet
         }

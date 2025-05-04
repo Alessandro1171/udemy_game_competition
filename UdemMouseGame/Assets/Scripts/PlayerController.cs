@@ -69,7 +69,7 @@ public class player : MonoBehaviour
 
                 if (distanceToEnemy < 1.0f)
                 {
-                    Enemy enemyScript = enemy.GetComponent<Enemy>();
+                    EnemyScript enemyScript = enemy.GetComponent<EnemyScript>();
                     if (enemyScript != null)
                     {
                         enemyScript.TakeDamage(1);

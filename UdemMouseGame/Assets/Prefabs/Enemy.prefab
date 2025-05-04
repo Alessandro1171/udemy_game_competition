@@ -121,7 +121,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573927815847687567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -401,6 +401,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5663068600966572387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176efbb5180378449ac33d87542370df, type: 3}
+  m_Script: {fileID: 11500000, guid: 16438acec675e7d42800a116b75b9f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

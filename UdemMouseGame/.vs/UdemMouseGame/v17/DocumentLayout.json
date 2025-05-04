@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\",
+  "WorkspaceRootPath": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\assets\\scoreeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scoreeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|d:\\udemy\\udemy_game_competition\\udemmousegame\\assets\\scripts\\whitecatlevelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\whitecatlevelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|d:\\udemy\\udemy_game_competition\\udemmousegame\\assets\\scripts\\enemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|d:\\udemy\\udemy_game_competition\\udemmousegame\\assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|D:\\udemy\\udemy_game_competition\\UdemMouseGame\\assets\\scripts\\enemyspawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|d:\\udemy\\udemy_game_competition\\udemmousegame\\assets\\scripts\\gameenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7C5004-03FC-CEA0-0967-82D47C664319}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ScoreEditor.cs",
-              "DocumentMoniker": "C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\Assets\\ScoreEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\ScoreEditor.cs",
-              "ToolTip": "C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\Assets\\ScoreEditor.cs",
-              "RelativeToolTip": "Assets\\ScoreEditor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "DocumentIndex": 2,
+              "Title": "BulletScript.cs",
+              "DocumentMoniker": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\BulletScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
+              "ToolTip": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\BulletScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletScript.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T01:43:26.499Z",
+              "WhenOpened": "2025-05-04T02:17:29.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\henar\\OneDrive\\Documents\\GitHub\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAowNYAAAAJAAAA",
+              "Title": "EnemyScript.cs",
+              "DocumentMoniker": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\EnemyScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScript.cs",
+              "ToolTip": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\EnemyScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScript.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T01:16:34.632Z",
+              "WhenOpened": "2025-05-04T02:06:23.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WhiteCatLevelScript.cs",
+              "DocumentMoniker": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\WhiteCatLevelScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WhiteCatLevelScript.cs",
+              "ToolTip": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\WhiteCatLevelScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WhiteCatLevelScript.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA5wB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:19:41.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySpawnerScript.cs",
+              "DocumentMoniker": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\EnemySpawnerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawnerScript.cs",
+              "ToolTip": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\EnemySpawnerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawnerScript.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCoAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:09:03.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameEnums.cs",
+              "DocumentMoniker": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\GameEnums.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEnums.cs",
+              "ToolTip": "D:\\udemy\\udemy_game_competition\\UdemMouseGame\\Assets\\Scripts\\GameEnums.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:15:41.456Z",
               "EditorCaption": ""
             }
           ]
