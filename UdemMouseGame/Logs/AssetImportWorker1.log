@@ -194,3 +194,35 @@ Received Import Request.
 Start importing Assets/Art Assets/Animation_Trim_Sheet_Mouse_.png using Guid(535245109f4449f439984912a5ea8709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04cc73d2508a47b1b95840419cb5c9a') in 0.114277 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 483.129840 seconds.
+  path: Assets/Scenes/Enemy.prefab
+  artifactKey: Guid(317a5966efc05684fbd461c7c1a6674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Enemy.prefab using Guid(317a5966efc05684fbd461c7c1a6674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03a08d415e9ae0606e0f142bf8dbe41') in 2.264700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Assets/Prefabs/EnemyGreen.prefab
+  artifactKey: Guid(313bb2b3df120664aafe023281a9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyGreen.prefab using Guid(313bb2b3df120664aafe023281a9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cd8d7c688726653807082a5da48d62') in 0.090630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/EnemyBlue.prefab
+  artifactKey: Guid(5e25c5f0ae20935429a4573ec49f87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyBlue.prefab using Guid(5e25c5f0ae20935429a4573ec49f87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dbca3d7b8c5751d6b147fc06a498f9') in 0.035103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e85510f75351b0e46d5fdbfab58f70') in 1.140326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

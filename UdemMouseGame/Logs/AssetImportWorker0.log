@@ -210,3 +210,80 @@ Received Import Request.
 Start importing Assets/Sprites/White_Cat.png using Guid(64444c3009f8e7e4f91f4f0a84516f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05ae972b750063cf920dabf4db7eb22') in 0.122582 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 383.877861 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(8da38fd13af9d7845b6bd9a937aafeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(8da38fd13af9d7845b6bd9a937aafeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea05faa338069cc81bd3aee172c05e14') in 1.236879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.371968 seconds.
+  path: Assets/Sprites/PlayerController 1.controller
+  artifactKey: Guid(7de8466602b8dba4d9442887b26f7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerController 1.controller using Guid(7de8466602b8dba4d9442887b26f7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a541df6c80f650e73a8c7df4bd19c1') in 0.013024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.800127 seconds.
+  path: Assets/Sprites/Mouse_Brown_Light.png
+  artifactKey: Guid(b98a31da7c0a6de43b6c17fcadbbf392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Mouse_Brown_Light.png using Guid(b98a31da7c0a6de43b6c17fcadbbf392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34759952eaa458023efa8ccd5e6a27e') in 0.105801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.392435 seconds.
+  path: Assets/Sprites/EnemyController.controller
+  artifactKey: Guid(7de8466602b8dba4d9442887b26f7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyController.controller using Guid(7de8466602b8dba4d9442887b26f7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60d075c38881a396394272ce3e77be0') in 0.003886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 28.853373 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf6931e8f194b67bc2c6294a3116466') in 2.277270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b276d1d47682f7547ad4950e92bc700f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b276d1d47682f7547ad4950e92bc700f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812ebb658a3ef72a96125fa9cea1128') in 0.061092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/dingo sfx/enemy die.wav
+  artifactKey: Guid(1d8bd6cb06cb87e4e9e81761c604d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dingo sfx/enemy die.wav using Guid(1d8bd6cb06cb87e4e9e81761c604d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c7c0695f81f2ef328b66eec6d96908') in 0.710144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d246ab5fa3b71539054d5c919176282') in 0.349011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/dingo sfx/enemy hit.wav
+  artifactKey: Guid(78f0912a361404c45ab139d6b6a2a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dingo sfx/enemy hit.wav using Guid(78f0912a361404c45ab139d6b6a2a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb8569b1be82096d22eee80056c419d') in 0.030995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
